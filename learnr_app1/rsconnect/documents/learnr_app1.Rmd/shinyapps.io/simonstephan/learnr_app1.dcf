@@ -1,12 +1,12 @@
 name: learnr_app1
-title: learnr_app1
+title:
 username:
 account: simonstephan
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2946570
-bundleId: 3704737
+bundleId: 3704820
 url: https://simonstephan.shinyapps.io/learnr_app1/
-when: 1601912073.99068
+when: 1601913210.06406
 asMultiple: FALSE
 asStatic: FALSE
