@@ -20,7 +20,7 @@ quiz(
     answer("mit Buchstaben", correct = TRUE),
     answer("gar nicht")
   ),
-  question("wodurch ist in Excel eine einzelne Zelle identifiziert?",
+  question("Wodurch ist in Excel eine einzelne Zelle identifiziert?",
     answer("durch eine Spalten- und eine Zeilenkoordinate", correct = TRUE),
     answer("durch eine Zeilen- und eine Spaltenkoordinate"),
     answer("nur durch eine Zeilenkoordinate"),
