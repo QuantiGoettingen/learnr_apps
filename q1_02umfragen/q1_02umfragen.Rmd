@@ -1,0 +1,46 @@
+---
+output: 
+  html_document:
+    includes:
+      in_header: test1.html
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Zuletzt wieder ein paar Kontrollfragen, mit denen Sie ihr Wissen prüfen können.
+
+```{r frageboegen, echo=FALSE}
+question("Warum werden in psychologischen Fragebögen manche Fragen in `die andere Richtung' formuliert?",
+  answer("Weil dadurch Leute identifiziert werden können, die die Fragen nicht gewissenhaft beantworten.", correct = TRUE),
+  answer("Damit bei der Auswertung später sehr leicht der Summenscore gebildet werden kann."),
+  allow_retry = TRUE,
+  random_answer_order = TRUE
+)
+```
+
+```{r rekodieren, echo=FALSE}
+question("Mit welcher Formel lassen sich Fragebogenitems einfach rekodieren?",
+  answer("Wert des rekodierten Items = Skalenmaximum + 1 - Wert des zu rekodierenden Items", correct = TRUE),
+  answer("Wert des rekodierten Items = Skalenminimum + 1 - Wert des zu rekodierenden Items"),
+  answer("Wert des rekodierten Items = Skalenminimum - 1 + Wert des zu rekodierenden Items"),
+  answer("Wert des rekodierten Items = Skalenmaximum - 1 + Wert des zu rekodierenden Items"),
+  allow_retry = TRUE,
+  random_answer_order = TRUE
+)
+```
+
+```{r histo, echo=FALSE}
+question("Was ist ein Histogramm?",
+  answer("Eine Grafik, die zeigt, wie sich Werte einer Variablen auf bestimmte Wertebereiche verteilen.", correct = TRUE),
+  answer("Eine Grafik, die zeigt, wie die Werte verschiedener Variablen miteinander zusammenhängen"),
+  answer("Eine Grafik, die die Mittelwerte verschiedener Variablen zeigt."),
+  allow_retry = TRUE,
+  random_answer_order = TRUE
+)
+```
+
+<div data-iframe-height></div>

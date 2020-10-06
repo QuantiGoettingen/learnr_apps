@@ -5,8 +5,8 @@ account: simonstephan
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2946570
-bundleId: 3704820
+bundleId: 3704874
 url: https://simonstephan.shinyapps.io/learnr_app1/
-when: 1601913210.06406
+when: 1601913830.99712
 asMultiple: FALSE
 asStatic: FALSE

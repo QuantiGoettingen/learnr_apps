@@ -17,7 +17,8 @@ knitr::opts_chunk$set(echo = FALSE)
 question("Wie werden in Excel Spalten identifiziert?",
   answer("mit Zahlen"),
   answer("mit Buchstaben", correct = TRUE),
-  answer("gar nicht")
+  answer("gar nicht"),
+  allow_retry = TRUE
 )
 ```
 
@@ -27,7 +28,8 @@ question("Wodurch ist in Excel eine einzelne Zelle identifiziert?",
   answer("durch eine Spalten- und eine Zeilenkoordinate", correct = TRUE),
   answer("durch eine Zeilen- und eine Spaltenkoordinate"),
   answer("nur durch eine Zeilenkoordinate"),
-  answer("nur durch eine Spaltenkoordinate")
+  answer("nur durch eine Spaltenkoordinate"),
+  allow_retry = TRUE
 )
 ```
 
