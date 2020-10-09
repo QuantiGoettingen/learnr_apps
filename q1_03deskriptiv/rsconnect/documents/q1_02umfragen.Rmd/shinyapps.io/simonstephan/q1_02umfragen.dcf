@@ -1,0 +1,12 @@
+name: q1_02umfragen
+title: q1_02umfragen
+username:
+account: simonstephan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2951916
+bundleId: 3707449
+url: https://simonstephan.shinyapps.io/q1_02umfragen/
+when: 1601969443.40139
+asMultiple: FALSE
+asStatic: FALSE

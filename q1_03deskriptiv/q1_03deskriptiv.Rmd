@@ -1,0 +1,87 @@
+---
+output: 
+  html_document:
+    includes:
+      in_header: test1.html
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Zuletzt wieder ein paar Kontrollfragen, mit denen Sie ihr Wissen prüfen können.
+
+```{r deskr, echo=FALSE}
+question("Was ist das Ziel deskriptiver Statistik?",
+  answer("Große Datenmengen auf einige wenige Maßzahlen zu reduzieren, um damit komplexe Sachverhalte übersichtlich darzustellen.", correct = TRUE),
+  answer("Große Datenmengen auf einige möglichst viele Maßzahlen zu reduzieren, um damit komplexe Sachverhalte übersichtlich darzustellen."),
+  answer("Große Datenmengen auf eine Maßzahl zu reduzieren, um damit komplexe Sachverhalte übersichtlich darzustellen."),
+  allow_retry = TRUE,
+  random_answer_order = TRUE
+)
+```
+
+```{r mittelwert, echo=FALSE}
+question("Was ist das arithmetische Mittel?",
+  answer("Das arithmetische Mittel beschreibt das Zentrum einer Verteilung durch einen numerischen Wert und stellt somit einen Lageparameter dar.", correct = TRUE),
+  answer("Das arithmetische Mittel beschreibt den Extrembereich einer Verteilung durch einen numerischen Wert und stellt somit einen Lageparameter dar."),
+  answer("Das arithmetische Mittel beschreibt das Zentrum einer Verteilung durch einen numerischen Wert und stellt somit einen Streuungsparameter dar."),
+  allow_retry = TRUE,
+  random_answer_order = TRUE
+)
+```
+
+```{r median, echo=FALSE}
+question("Was ist der Median?",
+  answer("Der Median der Messwerte einer Messwertreihe ist derjenige Messwert, der genau `in der Mitte' steht, wenn man die Messwerte der Größe nach sortiert.", correct = TRUE),
+  answer("Der Median der Messwerte einer Messwertreihe ist derjenige Messwert, der genau `in der Mitte' steht, wenn man die Messwerte zufällig sortiert."),
+  answer("Der Median der Messwerte einer Messwertreihe ist derjenige Messwert, der immer genau dem arithmetischen Mittel entspricht."),
+  allow_retry = TRUE,
+  random_answer_order = TRUE
+)
+```
+
+```{r streuung, echo=FALSE}
+question("Was ist die Streuung bzw. Standardabweichung einer Stichprobe?",
+  answer("Die Streuung einer Stichprobe von Werten ist ein deskriptives statistisches Maß dafür, wie sehr die Werte einer Wertereihe variieren.", correct = TRUE),
+  answer("Die Streuung einer Stichprobe von Werten ist ein deskriptives statistisches Maß dafür, wie nah sich Median und Modus einer Messwertreihe sind."),
+  answer("Die Streuung einer Stichprobe von Werten ist ein deskriptives statistisches Maß dafür, wie nah sich arithmetisches Mittel und Median einer Messwertreihe sind."),
+  allow_retry = TRUE,
+  random_answer_order = TRUE
+)
+```
+
+```{r varianz, echo=FALSE}
+question("Was trifft auf die Varianz einer Stichprobe zu?",
+  answer("Sie entspricht dem Quadrat der Streuung.", correct = TRUE),
+  answer("Sie entspricht der Quadratwurzel der Streuung"),
+  allow_retry = TRUE,
+  random_answer_order = TRUE
+)
+```
+
+```{r boxplot, echo=FALSE}
+question("Welchen Wert markiert die horizontale Linie innerhalb der Box eines Boxplots?",
+  answer("Den Median", correct = TRUE),
+  answer("Den Modus"),
+  answer("Das arithmetische Mittel"),
+  answer("Den Interquartilsabstand"),
+  allow_retry = TRUE,
+  random_answer_order = TRUE
+)
+```
+
+```{r symmetry, echo=FALSE}
+question("Was trifft zu, wenn die Werte einer Stichprobe eine symmetrische Verteilung aufweisen?",
+  answer("Dann sind arithmetisches Mittel und Median identisch", correct = TRUE),
+  answer("Den ist der Median größer als das arithmetische Mittel"),
+  answer("Dann ist der Median kleiner als das arithmetische Mittel"),
+  answer("Aus der Symmetrie der Verteilung kann man keine Rückschlüsse über den Abstand zwischen Median und arithmetischem Mittel ziehen."),
+  allow_retry = TRUE,
+  random_answer_order = TRUE
+)
+```
+
+<div data-iframe-height></div>
